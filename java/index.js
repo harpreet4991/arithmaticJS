@@ -22,9 +22,19 @@
 
 // var different method
 
-var x=100 
- x=50
- var y=50
+// var x=100 
+//  x=50
+//  var y=50
  
- z=x+y
- console.log(z)
+//  z=x+y
+//  console.log(z)
+
+
+// 2nd var method
+
+var x=prompt("enter your first number")
+var y=prompt("enter the second number")
+var z=Number(x)+Number(y)
+alert("your first number is " + x +" your second number is "+ y + " your total number is "+ z)
+
+
