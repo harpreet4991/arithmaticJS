@@ -32,9 +32,17 @@
 
 // 2nd var method
 
-var x=prompt("enter your first number")
-var y=prompt("enter the second number")
-var z=Number(x)+Number(y)
-alert("your first number is " + x +" your second number is "+ y + " your total number is "+ z)
+// var x=prompt("enter your first number")
+// var y=prompt("enter the second number")
+// var z=Number(x)+Number(y)
+// alert("your first number is " + x +" your second number is "+ y + " your total number is "+ z)
+
+
+// third method
+
+var s=prompt("enter the money given by costomer")
+var d=prompt("enter the price of thing")
+var z=Number(s)-Number(d)
+alert(" money given by costomer is "+s + " price of thing is" + d+ "rest money"+z)
 
 
